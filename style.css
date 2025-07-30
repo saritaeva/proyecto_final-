@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(17, 30, 85, 0.7), rgba(4,9,30,0.7)), url(img/img\ 01.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+  
+  
+    
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FFD700;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.text-box h1{
+    font-size: 62px;
+} 
+
+
+
+
+directora
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.imagen-directora {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.centro-nuestra-directora {
+  flex: 1;
+  font-family: sans-serif;
+  
+}
+
+body {
+  background-color:  #e5c705; 
+  
+  overflow-x: hidden;
+}
+
+
+
+
+
+maquillaje
+
+corse{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    color: rgb(226, 220, 235);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corse-col{
+    flex-basis: 31%;
+    background: #40E0D0;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #FFD700 ;
+}
+
+h1{
+  text-align: center;
+  font-size: 600;
+  margin: 10px 0;
+  color: #f605ba;
+}
+
+h2{
+  text-align: center;
+  font-size: 600;
+  margin: 10px 0;
+  color: rgb(71, 180, 223);
+}
+
+h4{
+  text-align: center;
+  font-size: 600;
+  margin: 10px 0;
+  color: rgb(236, 6, 121);
+}
+
+.texto-directora {
+  flex: 1;
+}
+
+
+button {
+  background-color: #a94f6f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto 0;
+  display: block;
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+}
+.form 
+
+input, textarea {
+  background-color: #fffde7;
+  border: 1px solid #ccc;
+}
+
+
+
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: #07f717e2;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #e8c70b; /* dorado al pasar el cursor */
+}
+
+.footer {
+  background-color: #fa0303;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer .inline-icons a {
+  color: #07f717e2;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+
+
